@@ -1,11 +1,11 @@
-# Feed-Forward-Neural-Network-for-Image-Classification
+# Image-Classification-Using-Feed-Forward-Neural-Network
 This project comprises two phases: Phase 1 involves implementing a feed-forward neural network **from scratch**, while Phase 2 focuses on implementing the same using `Keras` and `TensorFlow` packages. Each phase addresses unique datasets and objectives.
 
 ## Phase 1
 In this phase, we implement a feed-forward neural network from scratch by using `Numpy` library to categorize images of `CIFAR-10` dataset. Each image is first flattened as a vector and then is given as the network input. Each element of this vector (equivalent to one image pixel) is a feature. Based on these features and by making nonlinear combinations, the network is supposed to adjust the weight of the connections between its layers so that its output, with the least error, correctly predicts the corresponding input image class.
 ### Objectives
 - Data visualization and preprocessing, including min-max normalization and one-hot encoding of labels
-- Implementation of `Identical`, `Relu`, `LeakyReu`, `Sigmoid`, `Softmax`, and `Tanh` activation functions
+- Implementation of `Identical`, `Relu`, `LeakyRelu`, `Sigmoid`, `Softmax`, and `Tanh` activation functions
 - Implementation of `CrossEntropy` loss function
 - Implementation of `Layer` and `FeedForwardNN`
 - Test data classification and evaluate the impacts of network weighting methods, learning rate, activation function, and batch size
